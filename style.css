@@ -6,3 +6,13 @@
   max-height: 400px;
   overflow: auto;
 }
+
+.jumbotron {
+  background-color: lightblue
+}
+
+th {
+  background-color: lightblue;
+  font-size: large;
+  
+}
