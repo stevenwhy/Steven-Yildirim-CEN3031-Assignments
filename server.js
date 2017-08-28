@@ -39,6 +39,7 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
   listingData = data;
   length = Buffer.byteLength(data);
   server.listen(8080);
+  console.log("server listening on: http://localhost:8080");
   /*
     This callback function should save the data in the listingData variable, 
     then start the server. 
