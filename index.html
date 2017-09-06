@@ -29,9 +29,9 @@
                 <th>Building Name</th>
                 <th></th>
               </tr>
-              <tr ng-repeat="(index, listing) in listings | filter:query" ng-click="showDetails(index)">
+              <tr ng-repeat="listing in listings | filter:query" ng-click="showDetails(listing)">
                 <td>
-                  <button ng-click="deleteListing(index)" type="button" class="btn btn-danger btn-sm">
+                  <button ng-click="deleteListing(listing)" type="button" class="btn btn-danger btn-sm">
                       <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                   </button>
                 </td>
